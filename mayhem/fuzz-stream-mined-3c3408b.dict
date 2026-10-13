@@ -1,0 +1,8 @@
+"a=ptime:"
+"a=maxptime:"
+"a=rtpmap:0 PCMU/8000"
+"m=audio 5000 RTP/AVP 0"
+"c=IN IP4 127.0.0.1"
+"\x0a"
+"\x14"
+"\x1e"

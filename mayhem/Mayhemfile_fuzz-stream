@@ -1,0 +1,9 @@
+project: savantenvs/pjsip
+target: fuzz-stream-mined-3c3408b
+cmds:
+  - cmd: /mayhem/fuzz-stream
+    libfuzzer: true
+    dictionary: /mayhem/mayhem/fuzz-stream-mined-3c3408b.dict
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz-stream-mined-3c3408b/testsuite
